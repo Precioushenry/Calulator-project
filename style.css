@@ -5,7 +5,7 @@
 }
 
 body{
-  
+  background-color: honeydew;
 }
 .title{
   margin-top: 20px;
@@ -13,17 +13,20 @@ body{
 }
 .calculator{
     margin: 100px;
-    background-color:#251313;
-    background-image: url('a-beautiful-milkyway-on-a-night-sky-with-stars-and-nice-background-2G6DN5E.jpg');
+    background-color: #333;
+    inset: -5px -5px 15px rgba(0,0,0,0.5);
+    inset: 5px 5px 15px rgba(0,0,0,0.5);
+   box-shadow: 25px 25px 75px rgb(0, 0, 0);
   width: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 450px;
   border-radius: 20px;
-  fill-opacity:
+  
 }
 #text-area{
-  background-color: white;
+  background-color: #a7af7c;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.25);
   color: black;
   text-align: right;
   padding: 20px;
@@ -31,18 +34,24 @@ body{
   font-weight: 900;
   border-radius: 5px;
   height: 100px;
-  font-size: xx-large;
+  font-size: 4em;
   
 
 }
 .btn{
+  color:white;
+  box-shadow: inset -8px 0 8px rgba(0,0,0,0.15),
+  0 0 0 2px rgba(0,0,0,0.25), 10px 20px 25px rgba(0,0,0,0.4);;
   padding: 15px;
   font-weight: 900;
  margin-top: 30px;
   margin-bottom: 10px;
   border-radius: 25px;
-  border: none;
+  border: 6px;
+  border-color: white;
+  background: linear-gradient(100deg, #2f2f2f, #3f3f3f);
 }
+
 .btn:hover{
   background-color: grey;
 }
@@ -53,7 +62,7 @@ body{
   background-color: whitesmoke;
 }
 .btn1:active{
-  background-color: aliceblue;
+  filter: brightness(1.5);
 }
 .input-text1{
   margin: 10px;
@@ -91,14 +100,17 @@ body{
 
 }
 .btn1{
-  background-color: yellow;
+  color:white;
   padding: 15px;
   font-weight: 900;
  margin-top: 30px;
   margin-bottom: 10px;
   border-radius: 25px;
+  box-shadow: inset -8px 0 8px rgba(0,0,0,0.15),
+  0 0 0 2px rgba(0,0,0,0.25), 10px 20px 25px rgba(0,0,0,0.4);
   border: none;
-  
+  background: linear-gradient(100deg, #2f2f2f, #3f3f3f);
+  background: blue;
 }
 @media (max-width: 767px) {
   .calculator{
